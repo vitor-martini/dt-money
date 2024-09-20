@@ -28,6 +28,7 @@ export const Content = styled(Dialog.Content)`
 
     input {
       background-color: ${({ theme }) => theme['gray-900']};
+      color: ${({ theme }) => theme['gray-300']};
       padding: 1rem;
 
       &::placeholder {
@@ -43,7 +44,12 @@ export const Content = styled(Dialog.Content)`
       padding: 0 1.25rem;
       margin-top: 1.5rem;
 
-      &:hover {
+      &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+
+      &:not(:disabled):hover {
         background-color: ${({ theme }) => theme['green-700']};
         transition: background-color 0.2s;
       } 
