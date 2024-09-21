@@ -2,19 +2,59 @@
   "transactions": [
     {
       "id": 1,
-      "description": "Desenvolvimento de site",
+      "description": "Job freelance",
       "type": "income",
       "category": "Venda",
-      "price": 14000,
-      "createdAt": "2024-09-20T00:03:32.861Z"
+      "price": 1000,
+      "createdAt": "2024-09-16T06:42:48Z"
     },
     {
       "id": 2,
-      "description": "Lanche",
+      "description": "Salário",
+      "type": "income",
+      "category": "Salário",
+      "price": 8000,
+      "createdAt": "2024-09-13T10:44:30Z"
+    },
+    {
+      "id": 3,
+      "description": "Mercado mensal",
       "type": "outcome",
       "category": "Alimentação",
-      "price": 40.50,
-      "createdAt": "2024-09-20T02:03:32.861Z"
+      "price": 700,
+      "createdAt": "2024-09-18T12:49:20Z"
+    },
+    {
+      "id": 4,
+      "description": "Internet",
+      "type": "outcome",
+      "category": "Internet",
+      "price": 120,
+      "createdAt": "2024-09-09T11:53:23Z"
+    },
+    {
+      "id": 5,
+      "description": "Combustível",
+      "type": "outcome",
+      "category": "Transporte",
+      "price": 300,
+      "createdAt": "2024-09-18T16:46:37Z"
+    },
+    {
+      "id": 6,
+      "description": "Manutenção carro",
+      "type": "outcome",
+      "category": "Transporte",
+      "price": 1400,
+      "createdAt": "2024-09-12T23:21:55Z"
+    },
+    {
+      "description": "Lanche",
+      "category": "Alimentação",
+      "price": 40,
+      "type": "outcome",
+      "createdAt": "2024-09-21T00:55:09.760Z",
+      "id": 7
     }
   ]
 }
